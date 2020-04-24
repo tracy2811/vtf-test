@@ -58,7 +58,7 @@ Backend is simplyfied and used for mocking only.
 
 * Button to POST selected cells (date, room category, price) (and log in console)
 
-Also, other inputs for changing dates is allowed.
+Also, changing dates is allowed.
 
 ## Credit
 
