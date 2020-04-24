@@ -44,9 +44,21 @@ npm start
 
 Backend is simplyfied and used for mocking only.
 
-* GET request to `http:/localhost:8000?cat=categoryname&date=datestring` returns json with format `{ category, date, price: { current, recommend } }`. `category`, and `date` are extracted from request query, prices are random.
+* GET request to **http:/localhost:8000?cat=categoryname&date=datestring** returns json with format `{ category, date, price: { current, recommend } }`. `category`, and `date` are extracted from request query, prices are random.
 
-* POST request to http:/localhost:8000/rooms with rooms array in body returns this array in success.
+* POST request to **http:/localhost:8000/rooms** with rooms array in body returns this array in success.
+
+## What was done?
+
+* Table with data retrieved from API
+
+* User inputs: checkboxes, recommended prices
+
+* Image represents prices' dependence
+
+* Button to POST selected cells (date, room category, price) (and log in console)
+
+Also, other inputs for changing dates is allowed.
 
 ## Credit
 
