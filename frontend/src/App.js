@@ -31,7 +31,6 @@ function App() {
 		let newDates = getDatesBetween(startDate, endDate);
 
 		if (newDates.length) {
-			console.log(newDates);
 			setDates(newDates);
 		}
 	};
@@ -165,7 +164,7 @@ function App() {
 						<td key={`${categoryIndex}-${dateIndex}`}>
 
 						<label className="container">
-						<input type="checkbox" data-dateindex={dateIndex} data-categoryindex={categoryIndex} onClick={handleCheck}/>
+						<input type="checkbox" data-dateindex={dateIndex} data-categoryindex={categoryIndex} onChange={handleCheck} checked={price.checked}/>
 						<span className="checkmark"></span>
 						</label>
 
